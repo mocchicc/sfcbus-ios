@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CF25C81A3BD97E004ADE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF25C71A3BD97E004ADE22 /* AppDelegate.swift */; };
+		34CF25CA1A3BD97E004ADE22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF25C91A3BD97E004ADE22 /* ViewController.swift */; };
+		34CF25CD1A3BD97E004ADE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CF25CB1A3BD97E004ADE22 /* Main.storyboard */; };
+		34CF25CF1A3BD97E004ADE22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CF25CE1A3BD97E004ADE22 /* Images.xcassets */; };
+		34CF25D21A3BD97E004ADE22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CF25D01A3BD97E004ADE22 /* LaunchScreen.xib */; };
+		34CF25DE1A3BD97E004ADE22 /* sfcbus_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF25DD1A3BD97E004ADE22 /* sfcbus_iosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CF25D81A3BD97E004ADE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CF25BA1A3BD97E004ADE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CF25C11A3BD97E004ADE22;
+			remoteInfo = "sfcbus-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34CF25C21A3BD97E004ADE22 /* sfcbus-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sfcbus-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CF25C61A3BD97E004ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CF25C71A3BD97E004ADE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34CF25C91A3BD97E004ADE22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34CF25CC1A3BD97E004ADE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CF25CE1A3BD97E004ADE22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34CF25D11A3BD97E004ADE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34CF25D71A3BD97E004ADE22 /* sfcbus-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sfcbus-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CF25DC1A3BD97E004ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CF25DD1A3BD97E004ADE22 /* sfcbus_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfcbus_iosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CF25BF1A3BD97E004ADE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CF25D41A3BD97E004ADE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CF25B91A3BD97E004ADE22 = {
+			isa = PBXGroup;
+			children = (
+				34CF25C41A3BD97E004ADE22 /* sfcbus-ios */,
+				34CF25DA1A3BD97E004ADE22 /* sfcbus-iosTests */,
+				34CF25C31A3BD97E004ADE22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CF25C31A3BD97E004ADE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CF25C21A3BD97E004ADE22 /* sfcbus-ios.app */,
+				34CF25D71A3BD97E004ADE22 /* sfcbus-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CF25C41A3BD97E004ADE22 /* sfcbus-ios */ = {
+			isa = PBXGroup;
+			children = (
+				34CF25C71A3BD97E004ADE22 /* AppDelegate.swift */,
+				34CF25C91A3BD97E004ADE22 /* ViewController.swift */,
+				34CF25CB1A3BD97E004ADE22 /* Main.storyboard */,
+				34CF25CE1A3BD97E004ADE22 /* Images.xcassets */,
+				34CF25D01A3BD97E004ADE22 /* LaunchScreen.xib */,
+				34CF25C51A3BD97E004ADE22 /* Supporting Files */,
+			);
+			path = "sfcbus-ios";
+			sourceTree = "<group>";
+		};
+		34CF25C51A3BD97E004ADE22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CF25C61A3BD97E004ADE22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34CF25DA1A3BD97E004ADE22 /* sfcbus-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CF25DD1A3BD97E004ADE22 /* sfcbus_iosTests.swift */,
+				34CF25DB1A3BD97E004ADE22 /* Supporting Files */,
+			);
+			path = "sfcbus-iosTests";
+			sourceTree = "<group>";
+		};
+		34CF25DB1A3BD97E004ADE22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CF25DC1A3BD97E004ADE22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CF25C11A3BD97E004ADE22 /* sfcbus-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CF25E11A3BD97E004ADE22 /* Build configuration list for PBXNativeTarget "sfcbus-ios" */;
+			buildPhases = (
+				34CF25BE1A3BD97E004ADE22 /* Sources */,
+				34CF25BF1A3BD97E004ADE22 /* Frameworks */,
+				34CF25C01A3BD97E004ADE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sfcbus-ios";
+			productName = "sfcbus-ios";
+			productReference = 34CF25C21A3BD97E004ADE22 /* sfcbus-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CF25D61A3BD97E004ADE22 /* sfcbus-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CF25E41A3BD97E004ADE22 /* Build configuration list for PBXNativeTarget "sfcbus-iosTests" */;
+			buildPhases = (
+				34CF25D31A3BD97E004ADE22 /* Sources */,
+				34CF25D41A3BD97E004ADE22 /* Frameworks */,
+				34CF25D51A3BD97E004ADE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CF25D91A3BD97E004ADE22 /* PBXTargetDependency */,
+			);
+			name = "sfcbus-iosTests";
+			productName = "sfcbus-iosTests";
+			productReference = 34CF25D71A3BD97E004ADE22 /* sfcbus-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CF25BA1A3BD97E004ADE22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mocchicc;
+				TargetAttributes = {
+					34CF25C11A3BD97E004ADE22 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					34CF25D61A3BD97E004ADE22 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 34CF25C11A3BD97E004ADE22;
+					};
+				};
+			};
+			buildConfigurationList = 34CF25BD1A3BD97E004ADE22 /* Build configuration list for PBXProject "sfcbus-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CF25B91A3BD97E004ADE22;
+			productRefGroup = 34CF25C31A3BD97E004ADE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CF25C11A3BD97E004ADE22 /* sfcbus-ios */,
+				34CF25D61A3BD97E004ADE22 /* sfcbus-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CF25C01A3BD97E004ADE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CF25CD1A3BD97E004ADE22 /* Main.storyboard in Resources */,
+				34CF25D21A3BD97E004ADE22 /* LaunchScreen.xib in Resources */,
+				34CF25CF1A3BD97E004ADE22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CF25D51A3BD97E004ADE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CF25BE1A3BD97E004ADE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CF25CA1A3BD97E004ADE22 /* ViewController.swift in Sources */,
+				34CF25C81A3BD97E004ADE22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CF25D31A3BD97E004ADE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CF25DE1A3BD97E004ADE22 /* sfcbus_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CF25D91A3BD97E004ADE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CF25C11A3BD97E004ADE22 /* sfcbus-ios */;
+			targetProxy = 34CF25D81A3BD97E004ADE22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CF25CB1A3BD97E004ADE22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CF25CC1A3BD97E004ADE22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CF25D01A3BD97E004ADE22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CF25D11A3BD97E004ADE22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CF25DF1A3BD97E004ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34CF25E01A3BD97E004ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CF25E21A3BD97E004ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sfcbus-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34CF25E31A3BD97E004ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sfcbus-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34CF25E51A3BD97E004ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sfcbus-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfcbus-ios.app/sfcbus-ios";
+			};
+			name = Debug;
+		};
+		34CF25E61A3BD97E004ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sfcbus-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfcbus-ios.app/sfcbus-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CF25BD1A3BD97E004ADE22 /* Build configuration list for PBXProject "sfcbus-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CF25DF1A3BD97E004ADE22 /* Debug */,
+				34CF25E01A3BD97E004ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CF25E11A3BD97E004ADE22 /* Build configuration list for PBXNativeTarget "sfcbus-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CF25E21A3BD97E004ADE22 /* Debug */,
+				34CF25E31A3BD97E004ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34CF25E41A3BD97E004ADE22 /* Build configuration list for PBXNativeTarget "sfcbus-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CF25E51A3BD97E004ADE22 /* Debug */,
+				34CF25E61A3BD97E004ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CF25BA1A3BD97E004ADE22 /* Project object */;
+}
